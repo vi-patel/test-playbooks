@@ -1,0 +1,9 @@
+---
+  - hosts: '{{ host_var | default("all") }}'
+    user: root
+    gather_facts: no
+    tasks:
+    - include_vars: var_test_desc.yml
+    - shell: echo '{{ hello }} {{ hello2 }}'
+      register: foo
+    - debug: msg="the echo was {{ foo.stdout }}"

@@ -1,0 +1,14 @@
+---
+required:
+    - 
+optional:
+    -
+description: |
+    Getting the system release of the OS
+os_compatiblity:
+    - RHEL 6
+    - RHEL 6.4
+    - RHEL 7
+    - RHEL 7.2
+    - RHEL 7.3
+    - RHEL 7.4

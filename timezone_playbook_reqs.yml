@@ -1,0 +1,4 @@
+---
+mandatory_vars:
+    - x1
+optional_vars:

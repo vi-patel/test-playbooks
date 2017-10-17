@@ -1,0 +1,15 @@
+---
+#hello: 'just a test'
+#hello2: 'dsajflkasjdlf'
+required:
+    - hello
+    - hello2
+optional:
+    - host_var
+description: |
+    This is just a test playbook.
+    Testing ...
+os_compatiblity:
+    - RHEL 6.4
+    - RHEL 7.3
+    - RHEL 7.4
